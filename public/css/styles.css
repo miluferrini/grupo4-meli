@@ -1,0 +1,94 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #EAC926;
+    width: 100vw;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    text-align: center;
+    width: 90vw;
+    display: inline-block;
+}
+footer{
+    background-color: white;
+    text-align: center;
+} 
+.titulares{ 
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+}
+.descripciones{
+    font-size: 16px;
+}
+.compraCuotas{
+    text-align: center;
+}
+.fa-credit-card{
+    padding-top: 40px;
+    color:#03264C;
+    font-size: 2em;
+}
+.fa-gift{
+    color:#03264C;
+    font-size: 2em;
+}
+.fa-user-shield{
+    color:#03264C;
+    font-size: 2em;
+}
+.a-la-izquierda{
+    text-align: justify;
+    margin-left: -47px;
+}
+.burger-menu {
+    padding-top: 7px;
+    padding-left: 10px;
+    margin-left: 100px;
+    width: 25px;
+    height:25px;
+    border-radius: 15%;
+    background-color:#03264C;
+}
+.burger-menu i {
+color: white;
+}
+.tres-ultimos{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#logo{
+    margin-bottom: auto;
+}
+
+#copy{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top:-35px;
+    text-align: justify;
+    padding-bottom: 20px;
+    
+}
+
+.producto{
+    margin-bottom: 10px;
+}
+
+.circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid rgb(30, 162, 52);
+    margin-left: 50%;
+  }
