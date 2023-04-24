@@ -8,7 +8,7 @@ app.listen(3000,()=>{
 });
 
 app.get("/",(req,res) =>{
-    res.send("Estas en Home!");
+    res.send("Anda a Home!");
 })
 
 app.get("/home", function(req,res){
