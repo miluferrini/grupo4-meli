@@ -17,7 +17,27 @@ main{
 footer{
     background-color: white;
     text-align: center;
-} 
+}
+
+.main-header{
+    padding: 15px;
+}
+
+.main-header-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 40vw;
+    margin-bottom: auto;
+}
+
+.main-header-form {
+    width: 40vw;
+}
+
 .titulares{ 
     font-size: 20px;
     text-align: left;
@@ -71,11 +91,6 @@ footer{
 .tres-ultimos{
     padding-bottom: 20px;
     margin-bottom: 10px;
-}
-
-#logo{
-    width: 50vw;
-    margin-bottom: auto;
 }
 
 #copy{

@@ -13,20 +13,26 @@
     </head>
  
     <body>
-        <header>
-            <div id="logo">
-                <img src="./images/logo-mercado-liebre.svg" alt="aca va el logo de mercadoliebre">
-            </div>
-            <br>
-            <form action="/buscar" method="get">
-                <input type="text" name="q" placeholder="Buscar productos,marcas">
-                <br>
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
+        <header class="main-header">
+            <div class="main-header-top">
+                
+                <div id="logo">
+                    <img src="./images/logo-mercado-liebre.svg" alt="aca va el logo de mercadoliebre">
+                </div>
 
-                <p class="compraCuotas"> <i class="fa-solid fa-hand-holding-dollar"></i>
-             Comprá en cuotas y sin tarjeta de crédito</p>
-            <nav class="a-la-izquierda">
+                <form class="main-header-form" action="/buscar" method="get">
+                    <input type="text" name="q" placeholder="Buscar productos,marcas">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+                <p class="compraCuotas">
+                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                    Comprá en cuotas y sin tarjeta de crédito.
+                </p>
+
+            </div>
+            
+             <nav class="a-la-izquierda">
                 <ul>
                     <li> Ofertas </li>
                     <li> Tiendas Oficiales </li>
