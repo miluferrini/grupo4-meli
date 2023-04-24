@@ -57,17 +57,17 @@ footer{
     padding-inline-start: 0px;
 }
 .burger-menu {
-    padding-top: 7px;
-    padding-left: 10px;
-    margin-left: 100px;
-    width: 25px;
-    height:25px;
+    max-width: 25px;
     border-radius: 15%;
     background-color:#03264C;
+    color: white;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
 }
-.burger-menu i {
-color: white;
-}
+
+
 .tres-ultimos{
     padding-bottom: 20px;
     margin-bottom: 10px;
