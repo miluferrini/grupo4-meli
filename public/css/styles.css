@@ -23,8 +23,6 @@ footer{
 .main-section-top {
     display: flex;
     background-color: rgb(197, 197, 197);
-    justify-content: space-around;
-    flex-wrap: wrap;
     flex-direction: column;
 }
 
@@ -33,6 +31,19 @@ footer{
     background-color: rgb(197, 197, 197);
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.titulares-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .main-header{
