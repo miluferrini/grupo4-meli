@@ -1,11 +1,10 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 
 body{
     background-color: #EAC926;
-    width: 100vw;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
@@ -54,11 +53,11 @@ footer{
     width: 40vw;
 }
 
-.titulares{ 
+.titulares { 
     font-size: 20px;
     text-align: left;
     margin-left: 19px;
-    color:rgb(37, 37, 37)
+    color:rgb(37, 37, 37);
 }
 .precios{
     font-size: 18px;
