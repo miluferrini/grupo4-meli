@@ -11,6 +11,7 @@ body{
 }
 
 main{
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -25,6 +26,7 @@ footer{
     background-color: rgb(197, 197, 197);
     justify-content: space-around;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .main-section-bottom {
@@ -57,8 +59,9 @@ footer{
 .titulares{ 
     font-size: 20px;
     text-align: left;
-    margin-left: 19px;
-    color:rgb(37, 37, 37)
+    padding-left: 30px;
+    color:rgb(37, 37, 37);
+    width:100%;
 }
 .precios{
     font-size: 18px;
@@ -141,6 +144,13 @@ footer{
     border-top: 1px solid #ebebeb;
     padding: 15px;
     text-align: left;
+}
+
+.lista-productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul{
