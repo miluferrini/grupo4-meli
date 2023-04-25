@@ -1,26 +1,42 @@
-html{
-    margin: 0px;
-    padding: 0px;
+* {
+    box-sizing: content-box;
 }
+
+
 body{
     background-color: #EAC926;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 main{
     text-align: center;
-    width: 90vw;
-    display: inline-block;
-    background-color: rgb(197, 197, 197);
 }
+
 footer{
     background-color: white;
     text-align: center;
+    margin: 0px;
+}
+
+.main-section-top {
+    display: flex;
+    background-color: rgb(197, 197, 197);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-section-bottom {
+    display: flex;
+    background-color: rgb(197, 197, 197);
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .main-header{
     padding: 15px;
+    margin: 15px;
 }
 
 .main-header-top {
