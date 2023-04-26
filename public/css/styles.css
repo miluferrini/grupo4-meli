@@ -1,6 +1,8 @@
-* {
+*{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
+    }
 
 
 body{
@@ -10,28 +12,94 @@ body{
 }
 
 main{
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
 }
 
 footer{
     background-color: white;
     text-align: center;
-    margin: 0px;
+    margin-top: 20px;
 }
 
-.main-section-top {
-    display: flex;
+section{
     background-color: rgb(197, 197, 197);
-    flex-direction: column;
 }
 
-.main-section-bottom {
+.circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgb(30, 162, 52);
+    margin-left: 150px;
     display: flex;
-    background-color: rgb(197, 197, 197);
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+  }
+
+.fa-truck{
+    color:rgb(30, 162, 52);
+    font-size: 13px;
+}
+
+.main-header-top {
+    margin-top: 20px;
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fa-magnifying-glass{
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+#logo{
+    width: 50%;
+    margin-bottom: auto;
+}
+
+.main-header-form {
+    margin-top: 20px;
+    width: 50vw;
+    text-align: center;
+}
+
+.header-container{
+display: flex;
+flex-direction: row;
+}
+
+.titulares { 
+    font-size: 25px;
+    text-align: left;
+    color:rgb(37, 37, 37);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .titulares-container {
@@ -44,47 +112,52 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: row;
 }
 
-.main-header{
-    padding: 15px;
-    margin: 15px;
+
+.producto{
+    margin-bottom: 10px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.main-header-top {
+.container-producto{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#logo{
-    width: 40vw;
-    margin-bottom: auto;
-}
-
-.main-header-form {
-    width: 40vw;
-}
-
-.titulares { 
-    font-size: 20px;
+    flex-direction: row;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
     text-align: left;
-    margin-left: 19px;
-    color:rgb(37, 37, 37);
 }
+
 .precios{
     font-size: 18px;
-}
-.descuentos{
+    flex: 0.3;
+  }
+  
+  .descuentos{
+    flex: 0.7;
     font-size: 16px;
     color:rgb(30, 162, 52);
-}
-.descripciones{
+    padding-left: 10px;
+    margin-top: 2px;
+  }
+  
+  .descripciones{
     font-size: 16px;
-    display: none;
-}
+    flex: 1;
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+
 .compraCuotas{
+    font-size: 12px;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .fa-credit-card{
     padding-top: 40px;
@@ -124,7 +197,7 @@ footer{
 #copy{
     font-size: 10px;
     margin-left: 20px;
-    margin-top:-35px;
+    margin-top:10px;
     text-align: justify;
     padding-bottom: 20px;
 }
@@ -134,25 +207,6 @@ footer{
     background-color: white;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.circulo {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 2px solid rgb(30, 162, 52);
-  }
-
-.fa-truck{
-    color:rgb(30, 162, 52);
-    font-size: 10px;
-    margin-left:10px;
-}
-
-.container-producto{
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
-    text-align: left;
 }
 
 .lista-productos{
@@ -168,9 +222,6 @@ ul{
 }
 
 @media (min-width: 361px){
-    .descripciones {
-        display:inline;
-    }
     .producto{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
