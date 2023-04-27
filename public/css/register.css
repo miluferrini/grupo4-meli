@@ -1,0 +1,28 @@
+form {
+    display: block;
+    margin-bottom: 10px;
+
+  }
+
+.div-form{
+    margin-bottom: 20px;
+    
+  }
+
+form p{
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+form input {
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+}
+
+form input[type="text"] {
+    margin-right: 0px;
+  }
+
