@@ -1,28 +1,91 @@
-form {
-    display: block;
-    margin-bottom: 10px;
+main {
+  padding-top: 20px;
+  background-color: #dfdede ;
 
+}
+
+form {
+    display: inline-block;
+    width: 300px;
   }
 
 .div-form{
     margin-bottom: 20px;
-    
+    display: block;
   }
 
 form p{
     margin-bottom: 10px;
     font-weight: bolder;
+    text-align: left;
 }
 
 form input {
     padding: 10px;
     border: none;
-    border-bottom: 2px solid #ccc;
     width: 100%;
     max-width: 300px;
+    border-radius: 8px;
+
 }
 
 form input[type="text"] {
     margin-right: 0px;
+    border: none;
   }
 
+  
+form input[type="radio"]{
+  width: auto;
+  margin-right: 8px;
+}
+
+form div label {
+  margin-right: 20px;
+}
+
+form input[type="checkbox"]{
+  width: auto;
+  margin-right: 8px;
+}
+
+.checkbox-group {
+  display:flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.radio-group {
+  display:flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (min-width: 361px){
+  .producto{
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .a-la-izquierda{
+      display: inline;
+  }
+  .burger-menu{
+      display: none;
+  }
+}
+
+@media (min-width: 769px){
+  .descripciones {
+      display:inline;
+  }
+  .producto{
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .a-la-izquierda{
+      display: inline;
+  }
+  .burger-menu{
+      display: none;
+  }
+}
