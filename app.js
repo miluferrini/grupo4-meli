@@ -18,3 +18,7 @@ app.get("/home", function(req,res){
 app.get("/register", function(req,res){
     res.sendFile(path.join(__dirname,"/views/register.html"));
 });
+
+app.get("/login", function(req,res){
+    res.sendFile(path.join(__dirname,"/views/login.html"));
+});

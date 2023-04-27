@@ -1,1 +1,67 @@
-/*buenas
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #dfdede ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+main form input {
+    padding: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+    flex: 1;
+    width: 65%;
+}
+
+main form input[type="text"] {
+  margin-top: 15px;
+  margin-right: 0px;
+  border: none;
+  max-width: none;
+  flex: 1;
+  width: 65%;
+}
+
+main button[type="submit"] {
+  background-color: #0444a9; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  flex: 1;
+  width: 65%;
+  border-radius: 8px;
+}
+
+@media (min-width: 361px){
+  .producto{
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .a-la-izquierda{
+      display: inline;
+  }
+  .burger-menu{
+      display: none;
+  }
+}
+
+@media (min-width: 769px){
+  .descripciones {
+      display:inline;
+  }
+  .producto{
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .a-la-izquierda{
+      display: inline;
+  }
+  .burger-menu{
+      display: none;
+  }
+}
