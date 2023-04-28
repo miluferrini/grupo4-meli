@@ -22,7 +22,7 @@
                 <img src="./images/logo-mercado-liebre.svg" alt="aca va el logo de mercadoliebre">
             </div>
 
-            <form action="/search">
+            <form class="main-form" action="/search">
                 <input type="text" placeholder="Buscar...">
                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
@@ -33,34 +33,27 @@
 
         </div>
 
-        <div class="list-container">
-            <nav class="a-la-izquierda">
-                <ul>
+            <nav class="main-header-navbar">
+                <ul class="left-navbar">
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#">Tiendas Oficiales</a></li>
                     <li><a href="#"> Vender</a></li>
                     <li><a href="#">Ayuda</a></li>
                 </ul>
-                <ul>
+                <ul class="right-navbar">
                     <li>
-                        <form action="/register" method="get"> 
-                            <a href="/register">Creá tu cuenta </a>
-                            <i class="fa-regular fa-address-card"></i>
-                        </form> 
+                        <a href="/register">Creá tu cuenta  <i class="fa-regular fa-address-card"></i></a>                    
+                    </li>
+                    <li> 
+                        <a href="/login">Ingresá  <i class="fa-solid fa-right-to-bracket"></i></a>        
                     </li>
                     <li>
-                        <form action="/login" method="get"> 
-                            <a href="/login">Ingresá</a>
-                            <i class="fa-solid fa-right-to-bracket"></i>
-                        </form>
-                    </li>
-                    <li><a href="#">Mis compras</a>
-                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a href="#">Mis compras  <i class="fa-solid fa-cart-shopping"></i></a>                        
                     </li>
                 </ul>
                 <!-- <img width="auto" height="auto" src="/images/img-home-banner.jpg" alt="banner"> -->
             </nav>
-        </div>
+
         <div class="burger-menu">
             <i class="fas fa-bars"></i>
         </div>
