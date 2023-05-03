@@ -8,16 +8,18 @@
 body{
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
-    margin: 0px;
 }
 
-header {
+.main-header {
+    background-color: #EAC926;
     padding: 15px;
+    position: fixed;
+    top: 0;
 }
 
 main{
-    margin-top: 20px;
     text-align: center;
+    margin-top: 174.44px;
 }
 
 footer{
