@@ -15,6 +15,7 @@ body{
     padding: 15px;
     position: fixed;
     top: 0;
+    width: 100vw;
 }
 
 main{
@@ -51,7 +52,7 @@ section{
 .main-header-top {
     margin-top: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
@@ -274,10 +275,6 @@ flex-direction: row;
     }
 
     #logo {
-        width: 30vw;
-    }
-
-    .main-form {
         width: 30vw;
     }
 
