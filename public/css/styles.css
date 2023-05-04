@@ -15,7 +15,7 @@ body{
     padding: 15px;
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100vw;   
 }
 
 main{
@@ -27,6 +27,9 @@ footer{
     background-color: white;
     text-align: center;
     margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
 }
 
 section{
@@ -160,6 +163,11 @@ flex-direction: row;
     background-color: white;
     margin-left: 20px;
     margin-right: 20px;
+    transition: all 400ms;
+}
+
+.productos-container .producto:hover .circulo .fa-truck {
+    transform: rotateZ(-90deg);
 }
 
 .container-producto{
@@ -186,10 +194,19 @@ flex-direction: row;
 .descripciones{
     font-size: 16px;
     flex: 1;
-    display: block;
+    display: none;
     text-align: left;
     margin-bottom: 15px;
     margin-left: 15px;
+}
+
+.producto:hover .descripciones {
+    display: block;
+
+}
+
+.producto:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 .compraCuotas{
@@ -199,7 +216,6 @@ flex-direction: row;
     margin-bottom: 20px;
 }
 .fa-credit-card{
-    padding-top: 40px;
     color:#03264C;
     font-size: 2em;
 }
@@ -222,7 +238,6 @@ flex-direction: row;
     text-align: center;
     margin: auto;
 }
-
 
 .tres-ultimos{
     padding-bottom: 20px;
@@ -251,19 +266,9 @@ flex-direction: row;
     justify-content: center;
 }
 
-@media (min-width: 360px){
-    .producto{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-
-}
-
 @media (min-width: 768px){
     .descripciones {
-        display:inline;
-    }
-    .producto{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display:none;
     }
 
     .burger-menu{
@@ -289,5 +294,14 @@ flex-direction: row;
     }
 
     
+}
+
+@media (min-width: 920px){
+    
+footer{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 }
     

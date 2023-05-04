@@ -4,7 +4,7 @@ main {
   background-color: #dfdede ;
 }
 
-form {
+.form-login {
     display: flex;
     flex-direction: column;
 }
@@ -28,7 +28,7 @@ main form input[type="text"] {
 }
 
 main button[type="submit"] {
-  background-color: #0444a9; 
+  background-color: grey; 
   border: none;
   color: white;
   text-align: center;
@@ -37,6 +37,10 @@ main button[type="submit"] {
   flex: 1;
   width: 65%;
   border-radius: 8px;
+}
+
+.form-login #login-enviar:hover {
+  background-color: #0022AA;
 }
 
 @media (min-width: 361px){
