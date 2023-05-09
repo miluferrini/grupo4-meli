@@ -6,21 +6,25 @@
 
 
 body{
-    background-color: #EAC926;
+    background-color: rgb(197, 197, 197);
     font-family: 'Roboto', sans-serif;
 }
 
 .main-header {
     background-color: #EAC926;
-    padding: 15px;
+    padding: 10px;
     position: fixed;
     top: 0;
     width: 100vw;   
 }
 
+#banner{
+    width: 100%;
+}
+
 main{
     text-align: center;
-    margin-top: 174.44px;
+    margin-top: 134.44px;
 }
 
 footer{
@@ -55,7 +59,7 @@ section{
 .main-header-top {
     margin-top: 20px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -212,8 +216,8 @@ flex-direction: row;
 .compraCuotas{
     font-size: 12px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .fa-credit-card{
     color:#03264C;
