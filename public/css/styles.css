@@ -16,7 +16,7 @@ body{
 .main-header {
     background-color: #EAC926;
     padding: 10px;
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100vw;
 }
@@ -27,7 +27,6 @@ body{
 
 main{
     text-align: center;
-    margin-top: 133.04px;
 }
 
 footer{
